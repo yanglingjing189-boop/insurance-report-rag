@@ -1,0 +1,32 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# API keys / environment variables
+.env
+.env.*
+*.key
+
+# Original annual report PDFs
+documents/
+
+# Generated large data files
+data/*.npy
+
+# Hugging Face / model cache
+.cache/
+# Old prototype / intermediate data
+data/chunks.json
+data/chunks_v1.json
+data/chunks_v2.json
+data/chunks_v3.json
+data/tables.json
+data/table_chunks.json
+data/tables_multi.json

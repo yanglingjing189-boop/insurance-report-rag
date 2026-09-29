@@ -1,0 +1,11 @@
+numpy==2.5.3
+pandas==3.0.6
+pymupdf==1.28.2
+pymupdf-layout==1.28.2
+sentence-transformers==6.1.0
+torch==2.14.0
+transformers==5.17.0
+rank-bm25==0.2.2
+jieba==0.42.1
+openai==3.19.2
+streamlit==1.64.0
