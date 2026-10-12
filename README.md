@@ -138,3 +138,17 @@ PDF 年报
 
 ```bash
 streamlit run app_multi.py --server.fileWatcherType none
+
+
+## 2025年十家保险公司RAG完整评测
+
+根据课程第三次作业反馈，补充了10道题的完整检索及答案评测。
+
+- [优化后10题逐题评测报告](evaluation_after_v2.md)
+- [10题完整运行记录（JSON）](evaluation_after_v2.json)
+- [10题自动评测脚本](evaluate_10_questions.py)
+- [优化后的RAG问答程序](rag_qa_multi_v2.py)
+
+本次10道题全部完成，预设参考Chunk命中22/22。该指标衡量参考证据是否被检索到，不代表所有问题的答案准确率。
+
+报告逐题列出公司、章节、PDF页码、Chunk ID、模型原始回答和独立答案评价，并说明不同财务披露口径及金额单位的限制。
