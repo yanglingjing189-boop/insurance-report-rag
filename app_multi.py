@@ -1,7 +1,7 @@
 import streamlit as st
 from sentence_transformers import SentenceTransformer
 
-from rag_qa_multi import (
+from rag_qa_multi_v2 import (
     load_data,
     run_rag,
     MODEL_NAME,
@@ -184,12 +184,12 @@ if ask_button:
 
             with info_col1:
 
-                if result["companies"]:
+                if result.get("companies", []):
 
                     st.metric(
                         "识别公司",
                         "、".join(
-                            result["companies"]
+                            result.get("companies", [])
                         )
                     )
 
